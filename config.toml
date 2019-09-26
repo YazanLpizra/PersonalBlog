@@ -1,0 +1,83 @@
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+builddrafts = true 
+canonifyurls = true
+theme = "hugo-tufte"
+title = "Yazan Lpizra's Blog"
+
+[taxonomies]
+  category = "categories" 
+  group = "groups"
+  series = "series"
+  tag = "tags"
+
+[params]
+#   subtitle = "Software Engineer by day, cheesecake engineer by night"
+  subtitle = "Ramblings on coding, engineering, and baking"
+  copyrightHolder = "Copyright Holder"
+  showPoweredBy = true
+
+[permalinks]
+  post = "/:year/:month/:day/:title/"
+
+# -----------------------------------------------------------------------
+# Navigation menu 
+# -----------------------------------------------------------------------
+[[menu.nav]]
+  name = "Home"
+#   pre = "<i class='fa fa-home fa-lg'></i> "
+  weight = 1 
+  identifier = "home"
+  url = "/"
+
+[[menu.nav]]
+  name = "About"
+#   pre = "<i class='fa fa-tags fa-lg'></i> "
+  weight = 2 
+  identifier = "about"
+  url = "/about"
+
+[[menu.nav]]
+  name = "Projects"
+#   pre = "<i class='fa fa-tags fa-lg'></i> "
+  weight = 3
+  identifier = "projects"
+  url = "/projects"
+
+[[menu.nav]]
+  name = "Posts"
+#   pre = "<i class='fa fa-book fa-lg'></i> "
+  weight = 4 
+  identifier = "posts"
+  url = "/post"
+
+# [[menu.nav]]
+#   name = "Categories"
+#   pre = "<i class='fa fa-tags fa-lg'></i> "
+#   weight = 5 
+#   identifier = "categories"
+#   url = "/categories"
+
+[[menu.nav]]
+  name = "Odyssey"
+#   pre = "<i class='fa fa-book fa-lg'></i> "
+  weight = 6 
+  identifier = "odyssey"
+  url = "/odyssey"
+
+# -----------------------------------------------------------------------
+# Footer menu 
+# -----------------------------------------------------------------------
+[[menu.footer]]
+  name = ""
+  pre = "<i class='fa fa-github fa-2x'></i> "
+  weight = -100 
+  identifier = "github"
+  url = "https://github.com/yazanlpizra"
+[[menu.footer]]
+  name = ""
+  pre = "<i class='fa fa-twitter fa-2x'></i> "
+  weight = -90 
+  identifier = "twitter"
+  url = "https://twitter.com/YazanLpizra"
