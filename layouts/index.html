@@ -1,21 +1,23 @@
 {{ partial "header.html" . }}
 
 <body>
-    {{ partial "brand.html" . }}
-    <main>
-        <div id="layout" class="pure-g">
-            <article class="pure-u-1">
-                {{ range first 5 .Site.RegularPages }}
-                {{ partial "content.header.html" . }}
-                <p>{{ .Summary }}</p>
-                {{ if .Truncated }}
-                <p><a href="{{ .RelPermalink  }}">Read On &rarr;</a></p>
-                {{ end  }}
-                {{ end  }}
-                {{ partial "footer.html" . }}
-            </article>
-        </div>
-    </main>
+    <div class="flex-row">
+        {{ partial "brand.html" . }}
+        <main class="app-content">
+            <div id="layout" class="pure-g">
+                <article class="pure-u-1">
+                    {{ range first 5 .Site.RegularPages }}
+                    {{ partial "content.header.html" . }}
+                    <p>{{ .Summary }}</p>
+                    {{ if .Truncated }}
+                    <p><a href="{{ .RelPermalink  }}">Read On &rarr;</a></p>
+                    {{ end  }}
+                    {{ end  }}
+                    {{ partial "footer.html" . }}
+                </article>
+            </div>
+        </main>
+    </div>
 </body>
 
 </html>
