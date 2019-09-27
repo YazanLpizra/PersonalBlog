@@ -1,6 +1,6 @@
 contentdir = "content"
 layoutdir = "layouts"
-publishdir = "public"
+publishdir = "docs"
 builddrafts = false 
 canonifyurls = true
 theme = "hugo-tufte"
