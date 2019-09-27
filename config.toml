@@ -4,7 +4,7 @@ publishdir = "public"
 builddrafts = true 
 canonifyurls = true
 theme = "hugo-tufte"
-title = "Yazan Lpizra's Blog"
+title = "Yazan Lpizra"
 
 [taxonomies]
   category = "categories" 
@@ -14,7 +14,7 @@ title = "Yazan Lpizra's Blog"
 
 [params]
 #   subtitle = "Software Engineer by day, cheesecake engineer by night"
-  subtitle = "Ramblings on coding, engineering, and baking"
+  subtitle = "Coffee-Fueled Programming Ramblings"
   copyrightHolder = "Copyright Holder"
   showPoweredBy = true
 
@@ -65,6 +65,13 @@ title = "Yazan Lpizra's Blog"
   weight = 6 
   identifier = "odyssey"
   url = "/odyssey"
+
+[[menu.nav]]
+  name = "Quotes"
+#   pre = "<i class='fa fa-book fa-lg'></i> "
+  weight = 7 
+  identifier = "quotes"
+  url = "/quotes"
 
 # -----------------------------------------------------------------------
 # Footer menu 

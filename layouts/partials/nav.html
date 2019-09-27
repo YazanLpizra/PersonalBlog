@@ -1,5 +1,5 @@
 <nav class="menu">
-    <ul>
+    <ul class="flex-col">
         {{ range .Site.Menus.nav  }}
         <li><a href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a></li>
         {{ end }}
