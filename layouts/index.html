@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
 <body>
-    <div class="flex-row">
+    <div id="app-body">
         {{ partial "brand.html" . }}
         <main class="app-content">
             <div id="layout" class="pure-g">
@@ -9,9 +9,7 @@
                     {{ range first 5 .Site.RegularPages }}
                     {{ partial "content.header.html" . }}
                     <p>{{ .Summary }}</p>
-                    {{ if .Truncated }}
                     <p><a href="{{ .RelPermalink  }}">Read On &rarr;</a></p>
-                    {{ end  }}
                     {{ end  }}
                     {{ partial "footer.html" . }}
                 </article>

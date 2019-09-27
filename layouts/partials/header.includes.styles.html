@@ -1,0 +1,2 @@
+{{ $styles := resources.Get "scss/hugo-tufte-override.scss" | toCSS }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
