@@ -8,7 +8,9 @@ hasMath = false
 
  Thanks for stopping by! I'm currently doing an Online Masters in Computer Science at Georgia Tech while based in Connecticut. I spent three years after my undergrad working as a software engineer at Morgan Stanley (2016-2019), and recently left to focus on my Masters. 
  
- I'm aiming to have a general, not-necessarily-always-technical blog to talk about whatever is holding my attention captive at the moment - mainly programming, baking, the outdoors, and 3d printing. Feel free to reach out to me on any of those topics or to talk about any other interesting tidbit of knowledge!
+ I'm aiming to have a general, not-necessarily-always-technical blog to talk about whatever is holding my attention captive at the moment - mainly programming, baking, the outdoors, and 3d printing. Feel free to reach out to me on any of those topics or to talk about any other interesting tidbit of knowledge! 
+ 
+ I'm also open to new opportunities and relocation, preferably in the information security field.
 
  Here are my various handles across the intertubes:
 
