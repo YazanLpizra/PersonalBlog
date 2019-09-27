@@ -16,4 +16,4 @@ hasMath = false
  * <a href="https://www.linkedin.com/in/yazan-lpizra/"><i class='fa fa-linkedin'></i> Yazan Lpizra</a>
  * <a href="https://github.com/yazanlpizra"><i class='fa fa-github'></i> YazanLpizra</a>
  * <a href="https://twitter.com/YazanLpizra"><i class='fa fa-twitter'></i> @YazanLpizra</a>
- * <a href="https://twitter.com/YazanLpizra"><i class='fa fa-y-combinator'></i> yazan94</a>
+ * <a href="https://news.ycombinator.com/user?id=yazan94"><i class='fa fa-y-combinator'></i> yazan94</a>
