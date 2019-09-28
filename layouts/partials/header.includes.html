@@ -17,4 +17,4 @@
 <link rel="stylesheet" href="{{ "css/hugo-tufte.css" | relURL }}">
 
 {{ $styles := resources.Get "scss/hugo-tufte-override.scss" | toCSS }}
-<link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+<link rel="stylesheet" href="{{ $styles.Permalink | relURL}}" media="screen">
