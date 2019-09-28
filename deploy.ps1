@@ -22,7 +22,7 @@ printf "$color_green Checking out gh-pages branch into public $color_end\n"
 git worktree add -B gh-pages public origin/gh-pages
 
 printf "$color_green Removing existing files $color_end\n"
-Remove-Item -LiteralPath "public/*" -Force -Recurse
+Get-ChildItem -LiteralPath 'public/' -Recurse | Remove-Item -force -recurse
 
 printf "$color_green Generating site $color_end\n"
 hugo
