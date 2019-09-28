@@ -1,25 +1,22 @@
-#!/bin/sh
-
-# If a command fails then the deploy stops
-set -e
-
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 # Build the project.
 hugo -t hugo-tufte # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
-cd public
+# cd public
 
 # Add changes to git.
-git add .
+git add --all
 
 # Commit changes.
-msg="rebuilding site $(date)"
-if [ -n "$*" ]; then
-	msg="$*"
-fi
-git commit -m "$msg"
+if([string]::IsNullOrEmpty($Args[0])){
+    git commit -m "rebuilding site $(date)"
+}else{
+	git commit -m $Args[0]
+}
 
 # Push source and build repos.
 git push origin master
+
+echo done
