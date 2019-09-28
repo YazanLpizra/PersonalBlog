@@ -19,7 +19,7 @@ git worktree prune
 Remove-Item -LiteralPath ".git/worktrees/public/" -Force -Recurse
 
 printf "$color_green Checking out gh-pages branch into public $color_end\n"
-git worktree add -B gh-pages public upstream/gh-pages
+git worktree add -B gh-pages public origin/gh-pages
 
 printf "$color_green Removing existing files $color_end\n"
 Remove-Item -LiteralPath "public/*" -Force -Recurse
@@ -28,7 +28,9 @@ printf "$color_green Generating site $color_end\n"
 hugo
 
 printf "$color_green Updating gh-pages branch $color_end\n"
-cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
+cd public
+git add --all
+git commit -m "Publishing to gh-pages (publish.sh)"
 
 #echo "Pushing to github"
 git push --all

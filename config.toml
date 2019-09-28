@@ -5,6 +5,7 @@ builddrafts = false
 canonifyurls = true
 theme = "hugo-tufte"
 title = "Yazan Lpizra"
+baseurl = ""
 
 [taxonomies]
   category = "categories" 
