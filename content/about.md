@@ -4,8 +4,6 @@ subtitle = ">> whoami"
 hasMath = false 
 +++
 
-test changes
-
  <img src="/img/about-hero.jpg" width="100%">
 
  Thanks for stopping by! I'm currently doing an Online Masters in Computer Science at Georgia Tech while based in Connecticut. I spent three years after my undergrad working as a software engineer at Morgan Stanley (2016-2019), and recently left to focus on my Masters. 

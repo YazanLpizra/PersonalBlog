@@ -16,7 +16,6 @@ printf "$color_green Deleting old publication $color_end\n"
 Remove-Item -LiteralPath "public" -Force -Recurse
 mkdir public
 git worktree prune
-Remove-Item -LiteralPath ".git/worktrees/public/" -Force -Recurse
 
 printf "$color_green Checking out gh-pages branch into public $color_end\n"
 git worktree add -B gh-pages public origin/gh-pages
@@ -25,12 +24,15 @@ printf "$color_green Removing existing files $color_end\n"
 Get-ChildItem -LiteralPath 'public/' -Recurse | Remove-Item -force -recurse
 
 printf "$color_green Generating site $color_end\n"
-hugo
+hugo --environment production
 
 printf "$color_green Updating gh-pages branch $color_end\n"
 cd public
+
+printf "$color_red Updating home page with datestamp of publishing for debug purposes $color_end\n"
+@("Publish date: $(date)", "") +  (Get-Content "index.html") | Set-Content "index.html"
 git add --all
-git commit -m "Publishing to gh-pages (publish.sh)"
+git commit -m "Publishing to gh-pages ()"
 
 #echo "Pushing to github"
 git push --all

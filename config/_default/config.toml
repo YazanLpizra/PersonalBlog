@@ -26,32 +26,32 @@ baseurl = ""
 # Navigation menu 
 # -----------------------------------------------------------------------
 [[menu.nav]]
-  name = "Home"
+name = "Home"
 #   pre = "<i class='fa fa-home fa-lg'></i> "
-  weight = 1 
-  identifier = "home"
-  url = "/"
+weight = 1 
+identifier = "home"
+url = "/"
 
 [[menu.nav]]
-  name = "About"
+name = "About"
 #   pre = "<i class='fa fa-tags fa-lg'></i> "
-  weight = 2 
-  identifier = "about"
-  url = "/about"
+weight = 2 
+identifier = "about"
+url = "/about"
 
 [[menu.nav]]
-  name = "Projects"
+name = "Projects"
 #   pre = "<i class='fa fa-tags fa-lg'></i> "
-  weight = 3
-  identifier = "projects"
-  url = "/projects"
+weight = 3
+identifier = "projects"
+url = "/projects"
 
 [[menu.nav]]
-  name = "Posts"
+name = "Posts"
 #   pre = "<i class='fa fa-book fa-lg'></i> "
-  weight = 4 
-  identifier = "posts"
-  url = "/post"
+weight = 4 
+identifier = "posts"
+url = "/post"
 
 # [[menu.nav]]
 #   name = "Categories"
@@ -61,31 +61,31 @@ baseurl = ""
 #   url = "/categories"
 
 [[menu.nav]]
-  name = "Odyssey"
+name = "Odyssey"
 #   pre = "<i class='fa fa-book fa-lg'></i> "
-  weight = 6 
-  identifier = "odyssey"
-  url = "/odyssey"
+weight = 6 
+identifier = "odyssey"
+url = "/odyssey"
 
 [[menu.nav]]
-  name = "Quotes"
+name = "Quotes"
 #   pre = "<i class='fa fa-book fa-lg'></i> "
-  weight = 7 
-  identifier = "quotes"
-  url = "/quotes"
+weight = 7 
+identifier = "quotes"
+url = "/quotes"
 
 # -----------------------------------------------------------------------
 # Footer menu 
 # -----------------------------------------------------------------------
 [[menu.footer]]
-  name = ""
-  pre = "<i class='fa fa-github fa-2x'></i> "
-  weight = -100 
-  identifier = "github"
-  url = "https://github.com/yazanlpizra"
+name = ""
+pre = "<i class='fa fa-github fa-2x'></i> "
+weight = -100 
+identifier = "github"
+url = "https://github.com/yazanlpizra"
 [[menu.footer]]
-  name = ""
-  pre = "<i class='fa fa-twitter fa-2x'></i> "
-  weight = -90 
-  identifier = "twitter"
-  url = "https://twitter.com/YazanLpizra"
+name = ""
+pre = "<i class='fa fa-twitter fa-2x'></i> "
+weight = -90 
+identifier = "twitter"
+url = "https://twitter.com/YazanLpizra"

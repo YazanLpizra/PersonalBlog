@@ -13,8 +13,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <!-- Main CSS file based on Pure blog layout -->
-<link rel="stylesheet" href="{{ "css/tufte.css" | relURL }}">
-<link rel="stylesheet" href="{{ "css/hugo-tufte.css" | relURL }}">
+<link rel="stylesheet" href="{{ "/css/tufte.css" | relURL }}">
+<link rel="stylesheet" href="{{ "/css/hugo-tufte.css" | relURL }}">
+
 
 {{ $styles := resources.Get "scss/hugo-tufte-override.scss" | toCSS }}
-<link rel="stylesheet" href="{{ $styles.Permalink | relURL}}" media="screen">
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" media="screen">
