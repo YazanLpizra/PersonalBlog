@@ -46,12 +46,12 @@ weight = 3
 identifier = "projects"
 url = "/projects"
 
-[[menu.nav]]
-name = "Posts"
-#   pre = "<i class='fa fa-book fa-lg'></i> "
-weight = 4 
-identifier = "posts"
-url = "/post"
+# [[menu.nav]]
+# name = "Posts"
+# #   pre = "<i class='fa fa-book fa-lg'></i> "
+# weight = 4 
+# identifier = "posts"
+# url = "/post"
 
 # [[menu.nav]]
 #   name = "Categories"
@@ -59,6 +59,13 @@ url = "/post"
 #   weight = 5 
 #   identifier = "categories"
 #   url = "/categories"
+
+[[menu.nav]]
+name = "Readings"
+#   pre = "<i class='fa fa-book fa-lg'></i> "
+weight = 4 
+identifier = "readings"
+url = "/readings"
 
 [[menu.nav]]
 name = "Odyssey"

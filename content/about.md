@@ -12,6 +12,23 @@ hasMath = false
  
  I'm also open to new opportunities and relocation, preferably in the information security field.
 
+Some blogs I occasionally follow/read:
+
+* https://www.eidel.io/
+* https://danielmiessler.com/
+* https://www.troyhunt.com/
+* https://krebsonsecurity.com/
+* http://www.paulgraham.com/
+* https://samy.pl/
+* https://www.kalzumeus.com/
+
+My favorite podcasts:
+
+* **Darknet Diaries** by Jack Rhysider: https://darknetdiaries.com/
+* **Revolutions** by Mike Duncan: https://www.revolutionspodcast.com/
+* **The History of Rome** by Mike Duncan: https://thehistoryofrome.typepad.com/
+* **Hardcore History** by Dan Carlin: https://www.dancarlin.com/hardcore-history-series/
+
  Here are my various handles across the intertubes:
 
  * <a href="mailto:ylpizra@gmail.com"><i class='fa fa-envelope'></i> ylpizra@gmail.com</a>

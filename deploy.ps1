@@ -29,8 +29,8 @@ hugo --environment production
 printf "$color_green Updating gh-pages branch $color_end\n"
 cd public
 
-printf "$color_red Updating home page with datestamp of publishing for debug purposes $color_end\n"
-@("Publish date: $(date)", "") +  (Get-Content "index.html") | Set-Content "index.html"
+# printf "$color_red Updating home page with datestamp of publishing for debug purposes $color_end\n"
+# @("Publish date: $(date)", "") +  (Get-Content "index.html") | Set-Content "index.html"
 git add --all
 git commit -m "Publishing to gh-pages ()"
 
