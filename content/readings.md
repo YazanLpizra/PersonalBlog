@@ -1,6 +1,6 @@
 +++
 title = "Readings"
-subtitle = "*'A reader lives a thousand lives before he dies . . . The man who never reads lives only one.'* – George R.R. Martin"
+subtitle = "'A reader lives a thousand lives before he dies . . . The man who never reads lives only one.' – George R.R. Martin"
 hasMath = false 
 +++
 
